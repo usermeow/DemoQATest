@@ -1,0 +1,5 @@
+defaultUser:
+  fullName: "Vasilij Pupkin"
+  email: "alex@example.com"
+  currentAddress: "Moscow, Tverskaya st. 10"
+  permanentAddress: "London, Baker st. 221B"
