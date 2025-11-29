@@ -10,6 +10,12 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class TextBoxPage extends BasePage {
 
+    // TextBoxPage не использует конструктор с URL, но должен иметь конструктор
+    // без аргументов, чтобы вызвать super() по умолчанию.
+    public TextBoxPage() {
+        super();
+    }
+
     private static final String URL = "https://demoqa.com/text-box";
 
     // --- Locators (ONLY XPath) ---
@@ -28,8 +34,9 @@ public class TextBoxPage extends BasePage {
 
     @Step("Open Text Box page")
     public TextBoxPage openPage() {
+        // Вызываем BasePage.open(URL), который теперь возвращает BasePage.
+        // openPage() возвращает TextBoxPage (ковариантный тип)
         open(URL);
-        removeAds(); // Убираем баннеры, чтобы кнопка Submit была кликабельна
         return this;
     }
 

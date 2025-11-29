@@ -11,7 +11,7 @@ repositories {
 }
 
 // Версии библиотек вынесены в переменные для удобства
-val selenideVersion = "7.4.2"
+val selenideVersion = "7.12.1"
 val testngVersion = "7.10.2"
 val allureVersion = "2.27.0"
 val jacksonVersion = "2.17.2" // Для парсинга YAML
@@ -61,12 +61,6 @@ allure {
 }
 tasks.withType<Test> {
     useTestNG() // Используем TestNG
-    // Запускаем тесты параллельно (если нужно, можно убрать)
-    // maxParallelForks = 4
-
-    // --- КРИТИЧЕСКИ ВАЖНЫЙ БЛОК ДЛЯ ИСПРАВЛЕНИЯ ОШИБКИ JVM ---
-    // Указываем JVM, что нужно использовать AspectJ Weaver для Allure аннотаций (@Step)
-    // Это исправляет ошибки "Error opening zip file" и "agent library failed"
     doFirst {
         val aspectjweaver = configurations.testRuntimeClasspath.get().find { it.name.contains("aspectjweaver") }
 
