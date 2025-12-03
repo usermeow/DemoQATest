@@ -1,7 +1,7 @@
-package com.demoqa.tests;
+package com.demoqa.tests.elements;
 
 import com.demoqa.config.ProjectConfig;
-import com.demoqa.pages.BrokenLinksPage;
+import com.demoqa.pages.elements.BrokenLinksPage;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 

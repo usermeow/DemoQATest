@@ -1,8 +1,8 @@
-package com.demoqa.tests;
+package com.demoqa.tests.elements;
 
 import com.demoqa.factory.UserDataFactory;
 import com.demoqa.model.UserData;
-import com.demoqa.pages.TextBoxPage;
+import com.demoqa.pages.elements.TextBoxPage;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 

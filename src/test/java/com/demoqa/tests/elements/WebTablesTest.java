@@ -1,8 +1,8 @@
-package com.demoqa.tests;
+package com.demoqa.tests.elements;
 
 import com.demoqa.config.ProjectConfig;
 import com.demoqa.model.Employee;
-import com.demoqa.pages.WebTablesPage;
+import com.demoqa.pages.elements.WebTablesPage;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 

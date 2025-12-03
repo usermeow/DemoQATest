@@ -1,7 +1,7 @@
-package com.demoqa.tests;
+package com.demoqa.tests.elements;
 
 import com.demoqa.config.ProjectConfig;
-import com.demoqa.pages.RadioButtonPage;
+import com.demoqa.pages.elements.RadioButtonPage;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 

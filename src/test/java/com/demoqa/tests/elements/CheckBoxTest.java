@@ -1,7 +1,7 @@
-package com.demoqa.tests;
+package com.demoqa.tests.elements;
 
 import com.demoqa.config.ProjectConfig;
-import com.demoqa.pages.CheckBoxPage;
+import com.demoqa.pages.elements.CheckBoxPage;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 

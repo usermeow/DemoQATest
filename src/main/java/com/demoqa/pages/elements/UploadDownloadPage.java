@@ -1,4 +1,4 @@
-package com.demoqa.pages;
+package com.demoqa.pages.elements;
 
 import com.codeborne.selenide.DownloadOptions;
 import com.codeborne.selenide.FileDownloadMode;
