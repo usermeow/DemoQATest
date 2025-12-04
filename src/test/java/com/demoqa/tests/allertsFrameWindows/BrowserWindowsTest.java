@@ -1,6 +1,5 @@
 package com.demoqa.tests.allertsFrameWindows;
 
-
 import com.demoqa.config.ProjectConfig;
 import com.demoqa.pages.alertsFrameWindows.BrowserWindowsPage;
 import com.demoqa.tests.elements.BaseTest;
