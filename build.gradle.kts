@@ -23,6 +23,7 @@ dependencies {
 
     // TestNG (Тест раннер)
     testImplementation("org.testng:testng:$testngVersion")
+    testImplementation("org.testng:testng:7.10.2")
 
     // Allure (Отчетность)
     implementation("io.qameta.allure:allure-testng:$allureVersion")
