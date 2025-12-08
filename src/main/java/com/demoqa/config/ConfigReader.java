@@ -2,7 +2,7 @@ package com.demoqa.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import com.demoqa.model.UserData;
+import com.demoqa.models.UserData;
 import lombok.SneakyThrows;
 
 import java.io.InputStream;

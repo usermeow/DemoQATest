@@ -1,7 +1,7 @@
 package com.demoqa.factory;
 
 import com.demoqa.config.ConfigReader;
-import com.demoqa.model.UserData;
+import com.demoqa.models.UserData;
 
 public class UserDataFactory {
 

@@ -3,6 +3,7 @@ package com.demoqa.pages.elements;
 import com.codeborne.selenide.DownloadOptions;
 import com.codeborne.selenide.FileDownloadMode;
 import com.codeborne.selenide.SelenideElement;
+import com.demoqa.pages.BasePage;
 import io.qameta.allure.Step;
 
 import java.io.File;

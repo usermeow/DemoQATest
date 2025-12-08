@@ -1,7 +1,7 @@
 package com.demoqa.pages.alertsFrameWindows;
 
 import com.codeborne.selenide.SelenideElement;
-import com.demoqa.pages.elements.BasePage;
+import com.demoqa.pages.BasePage;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.*;

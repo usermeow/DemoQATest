@@ -1,15 +1,14 @@
 package com.demoqa.pages.forms;
 
 import com.codeborne.selenide.SelenideElement;
-import com.demoqa.model.Student;
-import com.demoqa.pages.elements.BasePage;
+import com.demoqa.models.Student;
+import com.demoqa.pages.BasePage;
 import io.qameta.allure.Step;
 
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class PracticeFormPage extends BasePage {

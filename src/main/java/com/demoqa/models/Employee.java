@@ -1,4 +1,4 @@
-package com.demoqa.model;
+package com.demoqa.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,11 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserData {
-    private String fullName;
+public class Employee {
+    private String firstName;
+    private String lastName;
     private String email;
-    private String currentAddress;
-    private String permanentAddress;
+    private String age;
+    private String salary;
+    private String department;
 }

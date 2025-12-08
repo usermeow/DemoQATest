@@ -2,7 +2,7 @@ package com.demoqa.tests.allertsFrameWindows;
 
 import com.demoqa.config.ProjectConfig;
 import com.demoqa.pages.alertsFrameWindows.AlertsPage;
-import com.demoqa.tests.elements.BaseTest;
+import com.demoqa.tests.BaseTest;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 

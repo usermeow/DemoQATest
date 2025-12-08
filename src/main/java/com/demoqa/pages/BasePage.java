@@ -1,4 +1,4 @@
-package com.demoqa.pages.elements;
+package com.demoqa.pages;
 
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Step;

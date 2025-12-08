@@ -1,9 +1,9 @@
 package com.demoqa.tests.forms;
 
 import com.demoqa.config.ProjectConfig;
-import com.demoqa.model.Student;
+import com.demoqa.models.Student;
 import com.demoqa.pages.forms.PracticeFormPage;
-import com.demoqa.tests.elements.BaseTest;
+import com.demoqa.tests.BaseTest;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 

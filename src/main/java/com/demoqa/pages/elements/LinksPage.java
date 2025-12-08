@@ -2,6 +2,7 @@ package com.demoqa.pages.elements;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import com.demoqa.pages.BasePage;
 import io.qameta.allure.Step;
 
 // Убрали импорт org.testng.Assert, так как он недоступен в main

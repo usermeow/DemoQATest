@@ -2,6 +2,7 @@ package com.demoqa.tests.elements;
 
 import com.demoqa.config.ProjectConfig;
 import com.demoqa.pages.elements.CheckBoxPage;
+import com.demoqa.tests.BaseTest;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
